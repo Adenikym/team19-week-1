@@ -33,22 +33,23 @@
            <button id="bt" class="btn3">Sign in</button>
         </div>
 
-        <div class="hamb">
+        <div id="ham-b" class="hamb">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line1"></div>
         </div>
 
-        <div class="mob-nav">
-
+        <div id="toggled" class="mob-nav">
+            <p id="close-b" class="closed">X</p>
             <div class="mob-logo">
                 <span>X</span>course
             </div>
-            <ul>
-            <li class="nav-items"> <a href="index.html"> Home</a></li>
-               <li class="nav-items"> <a href="#">How To</a> </li>
-               <li class="nav-items"> <a href="courses.html"> Courses</a></li>
-               <li class="nav-items"> <a href="invite.html"> Referral</a></li>
+           
+            <ul class="mobile">
+            <li > <a href="index.html"> Home</a></li>
+               <li > <a href="#">How To</a> </li>
+               <li > <a href="courses.html"> Courses</a></li>
+               <li > <a href="invite.html"> Referral</a></li>
             </ul>
                <button id="bt" class="btn3">Sign in</button>
         </div>
@@ -158,6 +159,7 @@
    
    
    <script src="index.js"></script>
+   <script src="nav.js"></script>
 
    <script>
 document.querySelector(".fa-bars").addEventListener("click" , function () {
@@ -177,5 +179,6 @@ document.getElementById("newsub").addEventListener("submit",function () {
 })
 
    </script>
+   
 </body>
 </html>

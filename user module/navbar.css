@@ -61,5 +61,69 @@ a:hover{
 }
 
 @media only screen and (max-width:850px){
-    
+    .f-nav{
+        display: none;
+    }
+
+    .hamb{
+        margin-top: 5px;
+        margin-left: 2%;
+    }
+
+    .line1{
+        width:40px;
+        border:1px solid black;
+        margin-bottom: 8px;
+    }
+
+    .line2{
+        width:25px;
+        border:1px solid black;
+        margin-bottom: 5px;
+        margin-bottom: 8px;
+    }
+
+    .mob-nav{
+        display: block;
+       background-color: #44B2A9;
+        color: white;
+        width: 50vw;
+        position: absolute;
+        top: 0;
+        height: 100vh;
+    }
+
+    .mob-logo{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 3.5rem;
+        margin-left: 10%;
+    }
+
+    .closed{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 5%;
+        font-size: 2.5rem;
+        color: black;
+    }
+
+    .mobile{
+        margin-left: 20%;
+        list-style: none;
+    }
+
+    .mobile li{
+        margin-bottom: 30px;
+    }
+
+    .mobile a{
+        color: #1C2F36;
+        font-size: 1.8rem;
+        
+    }
+
+    .mob-nav .btn3{
+        margin-left: 20%;
+    }
 }
