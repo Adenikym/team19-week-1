@@ -12,45 +12,12 @@ header{
     height: 100px;
 }
 
-header nav{
-display: flex;
-justify-content: space-between;
-}
-
-.logo{
-    margin-top: 10px;
-    margin-left: 3%;
-    font-size: 3rem;
-    color: #44B2A9
-    
-}
 
 .logo span{
     font-weight: bold;
     color: #1C2F36;
 }
 
-.top-nav{
-    display:flex;
-    justify-content: flex-end;
-    list-style: none;
-    width: 60%;
-}
-
-.nav-items{
-    border: 1px solid #44B2A9 ;
-    height: 30px;
-    text-align: center;
-    padding: 2px 4px;
-    color:#44B2A9 ;
-    border-radius: 7px;
-    font-size: 1.1rem;
-}
-
-.top-nav li{
-margin-right: 8%;
-width: 25%;
-margin-top: 10px;
 
 }
 
